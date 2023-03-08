@@ -215,6 +215,7 @@ main {
     outline: none;
     text-decoration: none;
     color: white;
+    padding: 15px 100px 15px 100px;
 } 
 
 .continue:hover {
@@ -232,7 +233,6 @@ main {
     width: 340px;
     font-size: 18px;
     margin-top: 15px;
-    
     cursor: pointer;
     transition: all .4s ease-out;
     outline: none;
