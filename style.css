@@ -29,7 +29,7 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    width: 75vh;
+    width: 85vh;
     height: 50vh;
  }
 
@@ -49,7 +49,7 @@ main {
     margin-top: 4vh;
     height: 165px; 
     position: fixed;
-    width: 180px;
+    width: 230px;
     margin-left: 65px;
  }
 
@@ -68,7 +68,7 @@ main {
 }
 
 .textResult p {
-    padding: 20px 35px 0px 35px;
+    padding: 20px 50px 0px 50px;
     font-size: 18px;
     color: hsl(241, 100%, 89%);
 }
@@ -79,7 +79,7 @@ main {
     color: hsl(241, 100%, 89%);
 }
 
-section {
+.section {
     height: 100%;
     width: 50%;
     padding: 10px;
@@ -209,7 +209,19 @@ section {
     color: hsla(224, 30%, 27%, 0.541);
 }
 
-button {
+.button {
+    cursor: pointer;
+    transition: all .4s ease-out;
+    outline: none;
+    text-decoration: none;
+    color: white;
+} 
+
+.continue:hover {
+    background: hsl(224, 30%, 27%);
+}
+
+.continue {
     background: rgb(46,13,233);
     background: linear-gradient(0deg, rgba(46,13,233,1) 37%, rgb(104, 87, 255) 100%);
     padding: 15px;
@@ -217,19 +229,12 @@ button {
     color: white;
     font-weight: 600;
     text-align: center;
-    width: 300px;
+    width: 340px;
     font-size: 18px;
     margin-top: 15px;
+    
     cursor: pointer;
     transition: all .4s ease-out;
     outline: none;
-}
-
-button:hover {
-    background: hsl(224, 30%, 27%);
-}
-
-button a { 
-    color: white;
     text-decoration: none;
 }
