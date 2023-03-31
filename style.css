@@ -223,7 +223,7 @@ main {
     outline: none;
     text-decoration: none;
     color: white;
-    padding: 15px 100px 15px 100px;
+    padding: 15px 0px 15px 0px;
 } 
 
 .button {
@@ -235,8 +235,6 @@ main {
     text-align: center;
     width: 100%;
     font-size: 18px;
-<<<<<<< HEAD
-    
 }
 
 .button:hover {
