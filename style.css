@@ -223,6 +223,7 @@ main {
     outline: none;
     text-decoration: none;
     color: white;
+    padding: 15px 100px 15px 100px;
 } 
 
 .button {
@@ -234,6 +235,7 @@ main {
     text-align: center;
     width: 100%;
     font-size: 18px;
+<<<<<<< HEAD
     
 }
 
@@ -274,3 +276,11 @@ main {
         padding-right: 20px;
     }
 }
+=======
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .4s ease-out;
+    outline: none;
+    text-decoration: none;
+}
+>>>>>>> 851241d01da9ea844acaf04adfd7e7f29dc89232
